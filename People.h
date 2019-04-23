@@ -21,11 +21,11 @@ People::People(string n="Unknown",char g='F',unsigned int a=69){
 void People::show(){
     for(int i=0;i<34;i++) cout<<"-";
     cout<<endl;
-    cout<<"NAME: "<<this->name<<endl;
+    cout<<"NAME: "<<name<<endl;
     cout<<"GENDER: ";
     if(gender=='M') cout<<"MALE"<<endl;
     else cout<<"FEMALE"<<endl;
-    cout<<"AGE: "<<this->age<<" years"<<endl;
+    cout<<"AGE: "<<age<<" years"<<endl;
     for(int i=0;i<34;i++) cout<<"-";
     cout<<endl;
 }
